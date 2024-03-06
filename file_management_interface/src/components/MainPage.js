@@ -15,7 +15,7 @@ import caretDownIcon from "../images/carat-down.png";
 import Card from "./Card/Card";
 import HeartEmoji from "../images/tired.png";
 import resume from "../images/resume.png";
-import stop from '../images/stop.png';
+import stop from "../images/stop.png";
 import stopall from "../images/stopall.png";
 import AllData from "./Data.json";
 
@@ -76,7 +76,9 @@ const MainPage = () => {
     <div>
       <div className="grandDiv1">
         <div className="bigheader">
-          <h1 className="h1">Internet Download Manager 10.36</h1>
+          <h1 className="h1">
+            <img src={documentsLogo} alt="" /> Internet Download Manager 10.36
+          </h1>
           <br />
           <ul className="header1">
             <li>
@@ -97,6 +99,7 @@ const MainPage = () => {
           </ul>
         </div>
       </div>
+      <hr style={{ display: "flex", color: "black", width: 1000 }}></hr>
       <div className="grandDiv">
         <div className="leftDiv">
           <div className="smallDiv">
