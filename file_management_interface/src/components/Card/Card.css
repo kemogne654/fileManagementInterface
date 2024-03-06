@@ -1,0 +1,84 @@
+.card {
+  width: 10rem;
+  height: 16rem;
+  position: relative; /* Changed to relative */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 10rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--orangeCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 1px 29px 2rem 26px;
+}
+.emoji-container {
+  display: flex;
+  align-items: center;
+}
+
+.percentage {
+  margin-left: 5px; /* Adjust as needed */
+}
+.button1{
+  width: 120px;
+  padding: 12px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgba(18, 142, 224, 0.884);
+}
+.card span:nth-of-type(2) {
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.card > img {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
+}
+
+.emoji-container {
+  position: absolute;
+  bottom: -2rem; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.percentage {
+  font-size: 16px;
+  color: #314058;
+}
+
+.c-button {
+  background: #FFFFFF;
+  box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #5290FD;
+}
+
+.c-button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.disk-space-logo{
+  padding-right: 6px;
+}
+/* cards */
+
+@media screen and (max-width: 480px){
+  .card{
+    width: auto;
+  }
+}
+.more-info-dots{
+  padding-left: 39px;
+}
+.more-info-dots:hover{
+  cursor: pointer;
+}

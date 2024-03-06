@@ -1,0 +1,42 @@
+[
+  {
+    "name": "UIUXMonster.png",
+    "size": "745 KB",
+    "image": "../images/images.png"
+  },
+  {
+    "name": "2pacCover.mp3",
+    "size": "3.00MB",
+    "image": "../images/music.png"
+  },
+  {
+    "name": "UIUXMonster.ZIP",
+    "size": "12.00 MB",
+    "image": "../images/compressed.png"
+  },
+  {
+    "name": "Details.pdf",
+    "size": "2.00 MB",
+    "image": "../images/documents.png"
+  },
+  {
+    "name": "Better.Call Saul.so2E10.720.mp3",
+    "size": "2.5 GB",
+    "image": "../images/videos.png"
+  },
+  {
+    "name": "Call Of Duty.apk",
+    "size": "12.00 MB",
+    "image": "../images/apks.png"
+  },
+  {
+    "name": "2pacCover.mp3",
+    "size": "12.00 MB",
+    "image": "../images/music.png"
+  },
+  {
+    "name": "Mima.exe",
+    "size": "12.00 MB",
+    "image": "../images/programs.png"
+  }
+]
