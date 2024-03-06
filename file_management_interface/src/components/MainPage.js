@@ -273,6 +273,7 @@ const MainPage = () => {
                 <tr className="table1">
                   <th style={{ paddingLeft: "120px" }}>
                     <input type="checkbox" />
+                    
                     Name
                   </th>
                   <th>Size</th>
